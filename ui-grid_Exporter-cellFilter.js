@@ -17786,7 +17786,7 @@ module.filter('px', function() {
                  * uiGridExporterConstants.ALL, uiGridExporterConstants.VISIBLE
                  */
 				csvExport: function (rowTypes, colTypes, applyCellFilters) {
-					service.csvExport(grid, rowTypes, colTypes, (applyCellFilter === undefined ? false : applyCellFilter));
+					service.csvExport(grid, rowTypes, colTypes, (applyCellFilters === undefined ? false : applyCellFilters));
 				},
                 /**
                  * @ngdoc function
